@@ -30,13 +30,13 @@ Should you need guidance on how to fork, open, edit, and maintain your codespace
 **Attention**: When you complete a task, put an `x` in the middle of the brackets to mark it off your ToDo list.
 Note: all work to be done in the `script.js` file.
 
-[ X ] Create a function named `isEligibleForFreeShipping` that accepts two parameters: `purchaseAmount` and `isMember`.
+[ ] Create a function named `isEligibleForFreeShipping` that accepts two parameters: `purchaseAmount` and `isMember`.
 ```
 function isEligibleForFreeShipping(purchaseAmount, isMember) {
   
 }
 ```
-[ X ] Inside the function, create a variable named `freeShipping`. Since we don't currently know whether the user will get free shipping or not we don't have to define it right now. Once we determine what the value will be we can reassign it. In that case we should use `let` instead of `const`.
+[ ] Inside the function, create a variable named `freeShipping`. Since we don't currently know whether the user will get free shipping or not we don't have to define it right now. Once we determine what the value will be we can reassign it. In that case we should use `let` instead of `const`.
 ```
 function isEligibleForFreeShipping(purchaseAmount, isMember) {
   let freeShipping
@@ -55,7 +55,7 @@ if (isMember) {
     freeShipping = false;
 }
 ```
-[ X ] Output the result using `console.log`:
+[ ] Output the result using `console.log`:
 - If the user is eligible, print "You are eligible for free shipping."
 - If the user is not eligible, print "You are not eligible for free shipping."
 ```
@@ -66,7 +66,7 @@ if (freeShipping) {
 }
 ```
 
-[ X ] Test your function with the provided test cases and add at least two more test cases of your own. Here are the provided test cases:
+[ ] Test your function with the provided test cases and add at least two more test cases of your own. Here are the provided test cases:
 ```
 // Test cases
 isEligibleForFreeShipping(30, true);  // You are eligible for free shipping.
